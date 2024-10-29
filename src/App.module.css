@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.root {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background: rgb(209, 206, 206);
+}
+
+.App {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgb(153, 140, 140);
+	width: 350px;
+	height: 350px;
+	flex-direction: column;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	margin-bottom: 15px;
+	padding: 5px;
+}
+
+button {
+	padding: 5px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+h2 {
+	text-align: center;
+	color: rgb(242, 245, 241);
+	margin-bottom: 15px;
+}
